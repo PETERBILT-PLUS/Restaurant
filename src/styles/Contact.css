@@ -1,0 +1,110 @@
+section.contact-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 120px 200px;
+    background-image: url(../Images/Contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 10% 50%, center;
+    background-color: rgba(0, 0, 0, 0.50);
+    background-blend-mode: darken;
+}
+
+section.contact-section h2 {
+    color: var(--firstColor);
+    font-size: 2.6em;
+}
+
+section.contact-section h3 {
+    color: var(--secondColor);
+    font-size: 1.7em;
+}
+
+section.contact-section button {
+    background-color: transparent;
+    border: solid 3px var(--firstColor);
+    color: var(--firstColor);
+    border-radius: 20px;
+    padding: 18px 24px;
+    cursor: pointer;
+    font-size: 1.4em;
+    transition: all 250ms ease;
+    word-spacing: 2px;
+    line-height: 2em;
+}
+
+section.contact-section button:hover {
+    transform: translateY(-2px);
+    background-color: var(--firstColor);
+    color: var(--secondColor);
+}
+
+/* TABLE SECTION */
+
+section.reservation-section {
+    width: 100%;
+    min-height: 850px;
+    max-height: auto;
+    padding: 70px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--thirtColor);
+}
+
+section.reservation-section h4 {
+    color: var(--fourthColor);
+    font-size: 2.6em;
+}
+
+section.reservation-section form {
+    width: 400px;
+    height: 500px;
+    padding: 17px;
+    border: solid 1px #afafaf;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section.reservation-section form input {
+    width: var(--input-width);
+    height: var(--input-height);
+    padding: 14px 12px;
+    color: var(--fourthColor);
+    border-radius: 2px;
+    font-size: 17px;
+    border: solid 1px #afafaf;
+}
+
+section.reservation-section form textarea {
+    width: var(--input-width);
+    min-height: 7rem;
+    font-size: 16.5px;
+    padding: 14px 12px;
+    border: solid 1px #afafaf;
+}
+
+section.reservation-section form input[type="submit"] {
+    width: 250px;
+    height: var(--input-height);
+    padding: 16px 24px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: hsl(50, 96%, 75%);
+    color: var(--secondColor);
+    border: none;
+    transition: background-color 500ms ease;
+}
+
+section.reservation-section form input[type="submit"]:hover {
+    background-color: hsl(50, 96%, 65%);
+}

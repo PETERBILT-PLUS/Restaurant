@@ -1,0 +1,29 @@
+@media screen and (max-width: 1200px) {
+    section.menu-services-section {
+        padding: 50px 5px;
+    }
+
+    section.menu-services-section h4 {
+        font-size: 1.6em;
+    }
+
+    section.menu-services-section div.menu-service-division {
+        padding: 0;
+    }
+
+    section.menu-services-section div.menu-service-division div.menu-choice {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    section.menu-services-section div.menu-service-division div.menu-choice button {
+        margin: 10px;
+    }
+    
+    section.menu-services-section div.menu-service-division div.menu-items {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: space-evenly;
+    }
+}

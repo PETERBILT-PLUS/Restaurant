@@ -1,0 +1,20 @@
+@media screen and (max-width: 1200px) {
+    section.about-section div.about-infos {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+        margin-top: 70px;
+    }
+
+    section.about-section div.about-infos div.about-items {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border: solid 3px #fefefe;
+        border-radius: 5px;
+        text-align: center;
+        margin: auto;
+    }
+}

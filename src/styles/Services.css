@@ -1,0 +1,171 @@
+section.services-section {
+    background-image: url(../Images/Service.jpg);
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.30);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 200px;
+}
+
+section.services-section>h2 {
+    font-size: 2.8em;
+    color: var(--firstColor);
+}
+
+section.services-section>h3 {
+    font-size: 1.6em;
+}
+
+
+/*  Service hero Section  */
+
+
+section.menu-services-section {
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    background-color: hsl(0, 0%, 94%);
+    padding: 50px 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.menu-services-section h4 {
+    color: var(--fourthColor);
+    font-size: 2.2em;
+}
+
+section.menu-services-section div.menu-service-division {
+    width: 100%;
+    height: inherit;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section.menu-services-section div.menu-service-division div.menu-choice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 0;
+}
+
+section.menu-services-section div.menu-service-division div.menu-choice button {
+    color: var(--fourthColor);
+    background-color: transparent;
+    border: solid 2px var(--fourthColor);
+    padding: 16px 24px;
+    margin: 0 12px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-weight: 600;
+    transition: all 250ms ease;
+}
+
+section.menu-services-section div.menu-service-division div.menu-choice button.active {
+    background-color: var(--fourthColor);
+    color: var(--secondColor);
+}
+
+section.menu-services-section div.menu-service-division div.menu-choice button:hover {
+    background-color: var(--fourthColor);
+    border-color: none;
+    transform: translateY(-2px);
+    color: var(--secondColor);
+    box-shadow: rgba(0, 0, 0, 0.30) 0 8px 15px;
+}
+
+section.menu-services-section div.menu-service-division div.menu-items {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+section.menu-services-section div.menu-service-division div.menu-items div.menu-item {
+    width: 286px;
+    height: 370px;
+    margin: 1.2em;
+    border-radius: 10px;
+    border: solid 1px #afafaf;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    cursor: pointer;
+    background-color: var(--secondColor);
+    transition: all 250ms ease-in-out;
+    overflow: hidden;
+    place-self: center center;
+}
+
+section.menu-services-section div.menu-service-division div.menu-items div.menu-item div.card-img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+section.menu-services-section div.menu-service-division div.menu-items div.menu-item:hover img {
+    transform: scale(1.1);
+}
+
+section.menu-services-section div.menu-service-division div.menu-items div.menu-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+    transition: all 250ms ease-in-out;
+}
+
+section.menu-services-section div.menu-service-division div.menu-items div.menu-item div.card-body {
+    display: flex;
+    height: 160px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0.8em 1.4em;
+}
+
+section.menu-services-section div.menu-service-division div.menu-items div.menu-item div.card-body h1 {
+    font-size: 1.2em;
+    color: #343a40;
+}
+
+section.menu-services-section div.menu-service-division div.menu-items div.menu-item div.card-body p {
+    color: #343a40;
+}
+
+section.menu-services-section div.menu-service-division div.menu-items div.menu-item div.card-body button {
+    color: var(--fourthColor);
+    background-color: transparent;
+    border: solid 2px var(--fourthColor);
+    padding: 12px 20px;
+    font-size: 1.1em;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-weight: 600;
+    transition: all 250ms ease;
+}
+
+section.menu-services-section div.menu-service-division div.menu-items div.menu-item div.card-body button:hover {
+    background-color: var(--fourthColor);
+    color: var(--secondColor);
+}

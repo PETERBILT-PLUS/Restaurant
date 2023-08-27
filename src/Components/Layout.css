@@ -1,0 +1,32 @@
+.speciale-icone {
+    color: var(--firstColor);
+    font-size: 1.5em;
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+header.header nav.navigation-phone {
+    width: 260px;
+    height: 320px;
+    background-color: var(--fourthColor);
+    border-radius: 10px 0 0 10px;
+    position: absolute;
+    right: -500px;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: right 500ms ease-in-out;
+}
+
+header.header nav.navigation-phone.active {
+    right: 0;
+}
+
+@media screen and (min-width: 1200px) {
+    header.header nav.navigation-phone {
+        display: none;
+    }   
+}

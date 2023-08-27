@@ -1,0 +1,27 @@
+@media screen and (max-width: 1200px) {
+    section.contact-section {
+        padding: 60px 0;
+        align-items: center;
+    }
+
+    section.contact-section h2 {
+        font-size: 2.1em;
+    }
+
+    section.contact-section h3 {
+        font-size: 1.5em;
+        text-align: center; 
+    }
+
+    section.reservation-section {
+        padding: 100px 10px;
+    }
+
+    section.reservation-section h4 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+    section.reservation-section form {
+        width: 300px;
+    }
+}

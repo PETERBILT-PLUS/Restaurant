@@ -1,0 +1,130 @@
+@media screen and (max-width: 1200px) {
+    header.header {
+        padding: 0 50px;
+    }
+
+    header.header h1 {
+        font-size: 1.5em;
+    }
+
+    header.header>nav.navigation-links>.navigation-link-active {
+        display: none;
+    }
+
+    header.header>nav.navigation-links>.navigation-link {
+        display: none;
+    }
+
+    .speciale-icone {
+        display: block;
+    }
+
+    section {
+        height: auto;
+    }
+
+    section.first-section {
+        padding: 150px 10px;
+        text-align: center;
+        align-items: center;
+    }
+
+    section.first-section h2 {
+        font-size: 1.8em;
+    }
+
+    section.first-section h3 {
+        font-size: 1.4em;
+    }
+
+    section.first-section div.buttons-division {
+        flex-direction: column-reverse;
+    }
+
+    section.first-section div.buttons-division button {
+        padding: 14px 20px;
+        font-size: 1.2em;
+        margin: 15px 0;
+    }
+
+    section.menu-section {
+        width: 100%;
+        height: auto;
+        padding: 100px 0;
+    }
+
+    section.menu-section div.menu-container .menu-item {
+        margin: 0 auto;
+    }
+
+    section.menu-section h2 {
+        font-size: 1.6em;
+        padding: 0;
+        padding-bottom: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    section.menu-section div.menu-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 100%;
+        padding: 0;
+        place-content: center space-evenly;
+    }
+
+    section.menu-section div.menu-container .menu-item {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 300px;
+        height: 200px;
+    }
+
+    section.menu-section div.menu-container .menu-item img {
+        width: 100%;
+        height: 100%;
+    }
+
+    section.website-info {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        padding: 0;
+    }
+
+    section.website-info div.website-detail {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding: 0;
+        width: 100%;
+    }
+
+    section.website-info div.website-detail h5 {
+        font-size: 1em;
+    }
+
+    section.website-info>div.website-detail:nth-child(3)>form {
+        width: 305px;
+        padding: 0;
+        margin: 15px 0;
+    }
+
+    footer {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    footer h3 {
+        font-size: 1em;
+    }
+
+    footer nav {
+        height: auto;
+        flex-direction: column;
+        padding: 5px 0;
+    }
+
+    footer nav .navigation-link,
+    .navigation-link-active {
+        margin: 10px 0;
+    }
+}
